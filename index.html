@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,800,400' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header" class="dark row">
+            <h1 class="dark col-12">Meme Generator</h1>
+            <p class="dark col-12">Please select your image and then enter any text you like on the right.</p>
+        </div>
+        <div id="image-chooser">
+            <form action="#image-chooser" method="GET" enctype="multipart/form-data">
+                <div id="chooseBtn"><span class="dark">Choose your Image</span></div>
+                <input type="file" id="file" />
+            </form>
+        </div>
+
+        <div id="image-container" class="row">
+            <canvas id="canvas" max-width="500" max-height="500" class="col-7"></canvas>
+            <div class="text-input col-4">
+                <label for="topLineText"><span>Top Line:</span></label><br/>
+                <input id="topLineText" type="text"><br/>
+                <label for="bottomLineText"><span>Bottom Line:</span></label><br/>
+                <input id="bottomLineText" type="text"><br/>
+                <button class="button dark" id="saveBtn">Save your Meme</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
