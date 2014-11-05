@@ -90,10 +90,7 @@ form {
 
 #image-chooser {
     width: 100%;
-    padding-left: 3%;
     padding-top: 1%;
-    border-left: 1px solid #73737F;
-    border-right: 1px solid #73737F;
 }
 
 #chooseBtn {
@@ -114,22 +111,17 @@ form {
 
 #image-container {
     display: flex;
-    border-left: 1px solid #73737F;
-    border-right: 1px solid #73737F;
-    border-bottom: 1px solid #73737F;
 }
 
 #canvas {
     background-repeat: no-repeat;
     margin-bottom: 3%;
-    margin-left: 3%;
     margin-right: 3%;
     margin-top: 1%;
     border: solid 1px #73737F;
 }
 
 #saveBtn {
-    /*width: 100%;*/
     margin-top: 5%;
 }
 
