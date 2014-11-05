@@ -131,6 +131,13 @@ form {
     color: #73737F;
 }
 
+#footer {
+    height: 5%;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2.5em;
+}
+
 .dark {
     background-color: #73737F;
     color: white;
