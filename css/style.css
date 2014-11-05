@@ -157,11 +157,28 @@ form {
         max-width: 730px;
     }
 
+    h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .header-text {
+        font-size: 0.9em;
+    }
+
     #canvas{
         width: 100%;
     }
-    
+
     #text-input {
         width: 100%;
+    }
+
+    #footer {
+        font-size: 0.9em;
+        line-height: 1.1em;
+        padding-top: 1px;
+        margin-top: 10px;
     }
 }
