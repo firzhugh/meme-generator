@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +13,10 @@
     <div id="main">
         <div id="header" class="dark row">
             <h1 class="dark col-12">Meme Generator</h1>
-            <p class="dark col-12">Please select your image and then enter any text you like on the right.</p>
+            <p class="dark col-12 header-text">Please select your image and then enter any text you like on the right.</p>
         </div>
         <div id="image-chooser">
-            <form action="#image-chooser" method="GET" enctype="multipart/form-data">
+            <form action="#" method="GET" enctype="multipart/form-data">
                 <div id="chooseBtn"><span class="dark">Choose your Image</span></div>
                 <input type="file" id="file" />
             </form>
@@ -30,8 +29,11 @@
                 <input id="topLineText" type="text"><br/>
                 <label for="bottomLineText"><span>Bottom Line:</span></label><br/>
                 <input id="bottomLineText" type="text"><br/>
-                <button class="button dark" id="saveBtn">Save your Meme</button>
+                <button class="button dark" id="saveBtn">Save Meme</button>
             </div>
+        </div>
+        <div id="footer" class="dark">
+            <p class="dark">Make your own now! You know you want to...</p>
         </div>
     </div>
 
@@ -39,4 +41,3 @@
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
-
